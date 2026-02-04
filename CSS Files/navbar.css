@@ -1,0 +1,53 @@
+section{
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    background-color: black;
+    padding: 3px;
+}
+.logo{
+    padding: 10px;
+    font-weight: 700;
+    font-size: x-large;
+    color: white;
+    letter-spacing:3px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+.navFields{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nf{
+    color: white;
+    margin-left: 25px;
+    margin-right: 50px;
+    font-size: medium;
+    cursor: pointer;
+}
+
+.nf:hover{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 2px;
+}
+
+#loginButton{
+    color: white;
+    width: 80px;
+    height: 30px;
+    font-size: large;
+    padding: 3px;
+    border-color: white;
+    border-width: 3px;
+    background: transparent;
+}
+#loginButton:hover{
+    color: black;
+    background-color: white;
+
+
+}

@@ -1,87 +1,25 @@
-.hero-title {
-    width: 100vw;
-    text-align: center;
-    color: #fff;
-    font-size: 2rem;
-    font-family: 'Poppins', Arial, sans-serif;
-    font-weight: 500;
-    letter-spacing: 0.01em;
-    margin: 32px 0 0 0;
-    z-index: 2;
-    position: relative;
-    text-shadow: 0 2px 8px #000a;
-}
 body{
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    padding: 3px;
+    margin:0;
     background-color: black;
 }
-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 32px;
+.bgphoto{
+    width:100%;
+    height:800px;
 }
-
-header div {
-    color:antiquewhite;
-    margin: 0 16px;
-    font-size: 2rem;
-    
+.imagecontainer{
+    position: relative;
 }
-
-header div:hover {
+.content{
   
-    border-radius: 5px;
-    border: 2px solid antiquewhite;
-    
-    
+    color: white;
+    position: absolute;
+    inset:0;
 }
-header div:first-child {
-    margin-right: auto;
-    font-weight: bold;
-    font-size: 1.3rem;
-}
-
-.hero {
-    width: 100vw;
-    height: auto;
-    min-height: unset;
-    background: none;
-    display: flex;
-    align-items: center;
+.hero{
+    display:flex;
     justify-content: center;
-    margin: 0;
-    padding: 0;
-}
-
-.hero::after {
-    content: '';
-    display: block;
-    width: 100vw;
-    max-width: 100vw;
-    height: 400;
-    min-height: 0;
-    background: none;
-    background-image: url('images/herosection.png');
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-size: contain;
-    aspect-ratio: 16/9;
-}
-
-
-.hero-images {
-  display: flex;
-  align-items: center;
-  justify-items: center;
-  flex-wrap: wrap;            
-  gap: 20px;
-  max-width: 320px;           
-}
-
-
-.hero-images img {
-  width: calc(50% - 10px);   
-  height: 150px;
-  object-fit: cover;
-  border-radius: 12px;
+    align-items: center;
 }
