@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="CSS Files/login.css"/>
+    </head>
+
+    <body>
+        <div class="signupdiv">
+            
+                <div class="signuptitle">
+                    <h1>Sign Up</h1>
+                </div>
+                <p>Register to book and enjoy live concerts!</p>
+            
+
+            <form>
+                <label>Enter username</label><br>
+                <input type="text" placeholder="username" required><br>
+
+                <label>Enter phone number</label><br>
+                <input type="tel"><br>
+
+                <label>Select DOB</label><br>
+                <input type="date"><br>
+
+                <label>Select location</label><br>
+                <select>
+                    <option>Tamilnadu</option>
+                <option>Kerala</option>
+                <option>Andhra Pradesh</option>
+                <option>Karnataka</option>
+                <option>Maharashtra</option>
+                </select>
+                <br>
+                <label>Enter password</label><br>
+                <input type="password" placeholder="********"><br>
+                <label>Confirm password</label><br>
+                <input type="password"><br>
+                <input type="checkbox">Accept terms and conditions*<br>
+                <div class="buttonclass">
+                    <button onclick="registerMessage()">register</button>
+                </div>
+                
+            </form>
+        </div>
+    </body>
+</html>
