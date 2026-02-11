@@ -9,36 +9,80 @@
     />
     <link rel="stylesheet" href="CSS Files/navbar.css" />
     <link rel="stylesheet" href="style.css" />
+    <script src="JSFiles/login.js"></script>
   </head>
   <body>
-  <section class="navbar">
-     
-        <div class="logo">CONCERTOO</div>
+    <section class="navbar">
+      <div class="logo">CONCERTOO</div>
 
-        <div class="navFields">
-            <div class="nf">Home</div>
-            <div class="nf">Events</div>
-            <div class="nf">My Bookings</div>
-            <div class="nf">Contact</div>
-            <div class="nf">
-              <button id="loginButton">login</button>
-            </div>
+      <div class="navFields">
+        <div class="nf">Home</div>
+        <div class="nf">Events</div>
+        <div class="nf">My Bookings</div>
+        <div class="nf">Contact</div>
+        <div class="nf">
+          <button id="loginButton" onclick="gotoLogin()">login</button>
         </div>
-      
+      </div>
     </section>
     <div class="imagecontainer">
-      <img class="bgphoto" src="images/heroimage.png" alt="hero-photo"> 
+      <img class="bgphoto" src="images/heroimage.png" alt="hero-photo" />
 
-      <div class="content">
-        <div class="hero">
-          <div>
-            
-            <p>Book Live Concert Tickets</p>
-            <h2>INSTANTLY</h2>
+      <div>
+        <div class="content">
+          <div id="maincon" class="incontent">
+            <pre>
+Book Live Concert Tickets
+             
+        INSTANTLY</pre
+            >
+          </div>
+          <div class="incontent">
+            <p>Discover and book upcoming concerts and live events near you.</p>
+          </div>
+          <div class="buttonClass">
+            <button style="background-color: #ff007f" class="b1">
+              Book Now
+            </button>
+            <button class="b2">View Events</button>
           </div>
         </div>
       </div>
     </div>
-    </body>
-</html>
 
+    <p style="margin-left: 20px; color: white; font-size: x-large">
+      Trending <span style="color: #ff007f"> Now</span>
+    </p>
+    <div class="trendingclass">
+      <button class="sidebutton"><</button>
+      <div class="tc">
+        <div class="imagediv" id="img1">
+          <p style="color:white">Anirudh</p>
+          <div style="display:flex; justify-content:space-between">
+            <p class="price">From $89</p>
+            <button class="BookClass">Book Tickets</button>
+          </div>
+        </div>
+      </div>
+      <div class="tc">
+        <div class="imagediv" id="img2">
+          <p>Shreya Goshal</p>
+          <div style="display:flex; justify-content:space-between">
+            <p class="price">From $89</p>
+            <button class="BookClass">Book Tickets</button>
+          </div>
+        </div>
+      </div>
+      <div class="tc">
+        <div class="imagediv" id="img3">
+          <p style="color:white">Anuv Jain</p>
+          <div style="display:flex; justify-content:space-between">
+            <p class="price">From $89</p>
+            <button class="BookClass">Book Tickets</button>
+          </div>
+        </div>
+      </div>
+      <button class="sidebutton">></button>
+    </div>
+  </body>
+</html>

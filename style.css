@@ -1,6 +1,6 @@
 body{
     font-family: "Poppins", sans-serif;
-    font-style: normal;
+    
     padding: 3px;
     margin:0;
     background-color: black;
@@ -13,13 +13,99 @@ body{
     position: relative;
 }
 .content{
-  
+  display:flex;
+  flex-direction: column;
+  font-size:larger;
+    justify-content: center;
+    
+    margin:5%;
     color: white;
     position: absolute;
     inset:0;
 }
-.hero{
+.incontent{
     display:flex;
     justify-content: center;
-    align-items: center;
+    align-items:center;
+}
+.buttonClass{
+    display: flex;
+    justify-content: center;
+    margin:50px;
+}
+.b1{
+    height:60px;
+    width: 150px;
+    border: solid transparent;
+    border-radius:6px;
+    color:white;
+    font-size:large;
+    font-weight: 700;
+    
+}
+.b2{
+    margin-left: 20px;
+    background-color: black;
+    height:60px;
+    width: 150px;
+    border: solid transparent;
+    border-radius:6px;
+    color:white;
+    font-size:large;
+    font-weight: 700;
+    
+}
+.tc{
+    margin-left:20px;
+    height:380px;
+    width:350px;
+    border: solid white 2px;
+}
+.trendingclass{
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+}
+.sidebutton{
+    size:100px;
+    font-size:xx-large;
+    background-color: transparent;
+    color:white;
+    border: solid white 1px;
+}
+.sidebutton:hover{
+    background-color: white;
+    color: black;
+    border: solid white 1px;
+}
+.imagediv{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-size:cover;
+    background-position: center;
+    height:378px;
+    width:348px;
+    margin:0%;
+    padding:1px;
+}
+#img1{
+    background-image: url('images/anirudh.png');
+}
+#img2{
+    background-image: url('images/shreya.png');
+}
+#img3{
+    background-image: url('images/anuvJain.png');
+}
+.BookClass{
+    margin-left:20px; height:45px; width:120px; font-size:large;
+    margin-right:20px;
+    background-color: #ff007f;
+    border: solid transparent;
+    color: white;
+    border-radius: 4px;
+}
+.price{
+    color:white; font-size:large; margin-left:20px;
 }
